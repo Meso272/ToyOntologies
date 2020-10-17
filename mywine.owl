@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#"
+     xml:base="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_152e8630_792b_4b3d_a8ec_ad25aefed33c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_152e8630_792b_4b3d_a8ec_ad25aefed33c">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="zh">modifier_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_1dc296ab_7fcc_4469_a90f_141af77258de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_1dc296ab_7fcc_4469_a90f_141af77258de">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ef0874b9_8f53_4d9a_a43e_8ec01e5a35a4"/>
+        <rdfs:label xml:lang="zh">Produced_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ca1b1db4_f6fd_482d_8467_9f7be88675bc -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ca1b1db4_f6fd_482d_8467_9f7be88675bc">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_152e8630_792b_4b3d_a8ec_ad25aefed33c"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:label xml:lang="zh">has_degree</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ef0874b9_8f53_4d9a_a43e_8ec01e5a35a4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ef0874b9_8f53_4d9a_a43e_8ec01e5a35a4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="zh">relational_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_10618d78_aec0_464a_88cb_7294a0dc352f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_10618d78_aec0_464a_88cb_7294a0dc352f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_8f52dfef_b6bc_4a1b_965d_45facbfa152d"/>
+        <rdfs:label xml:lang="zh">A_Winery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_11386ca3_a876_432e_ad1d_bbfe90890828 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_11386ca3_a876_432e_ad1d_bbfe90890828">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_828d32b5_e67e_4b0b_b4b9_b4f4367bad50"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_1dc296ab_7fcc_4469_a90f_141af77258de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1a889613_ecf4_4dc5_8ccd_de87ec87a8ad"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ca1b1db4_f6fd_482d_8467_9f7be88675bc"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1d21e61e_82c7_42f2_abdf_20695cc4e804"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">B_wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1a889613_ecf4_4dc5_8ccd_de87ec87a8ad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1a889613_ecf4_4dc5_8ccd_de87ec87a8ad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_8f52dfef_b6bc_4a1b_965d_45facbfa152d"/>
+        <rdfs:label xml:lang="zh">B_Winery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1d21e61e_82c7_42f2_abdf_20695cc4e804 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1d21e61e_82c7_42f2_abdf_20695cc4e804">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_e389b8f6_62f8_4ae4_a373_678250b4d147"/>
+        <rdfs:label xml:lang="zh">Medium_degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_263aa50b_8623_439d_8086_2f401ebe7252 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_263aa50b_8623_439d_8086_2f401ebe7252">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_8f52dfef_b6bc_4a1b_965d_45facbfa152d"/>
+        <rdfs:label xml:lang="zh">D_Winery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_4b7ce1f5_93d0_46ed_b7c0_f8914bdbee9e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_4b7ce1f5_93d0_46ed_b7c0_f8914bdbee9e">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_828d32b5_e67e_4b0b_b4b9_b4f4367bad50"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_1dc296ab_7fcc_4469_a90f_141af77258de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_263aa50b_8623_439d_8086_2f401ebe7252"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ca1b1db4_f6fd_482d_8467_9f7be88675bc"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1d21e61e_82c7_42f2_abdf_20695cc4e804"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">D_wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_63c8ae73_16a6_4050_a1a5_67b0d9ef109e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_63c8ae73_16a6_4050_a1a5_67b0d9ef109e">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_828d32b5_e67e_4b0b_b4b9_b4f4367bad50"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_1dc296ab_7fcc_4469_a90f_141af77258de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_7e5a2e8c_076a_4091_b9cc_af4f28af2199"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ca1b1db4_f6fd_482d_8467_9f7be88675bc"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_ccf2b502_26ed_44c3_a15f_c6a645a5cf0b"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">C_wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_7798210a_b3b8_4854_bc05_d63cb822ca24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_7798210a_b3b8_4854_bc05_d63cb822ca24">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_828d32b5_e67e_4b0b_b4b9_b4f4367bad50"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_1dc296ab_7fcc_4469_a90f_141af77258de"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_10618d78_aec0_464a_88cb_7294a0dc352f"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLObjectProperty_ca1b1db4_f6fd_482d_8467_9f7be88675bc"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_78ed8280_e250_45eb_9f82_76b036b97be0"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">A_wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_78ed8280_e250_45eb_9f82_76b036b97be0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_78ed8280_e250_45eb_9f82_76b036b97be0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_e389b8f6_62f8_4ae4_a373_678250b4d147"/>
+        <rdfs:label xml:lang="zh">High_degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_7e5a2e8c_076a_4091_b9cc_af4f28af2199 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_7e5a2e8c_076a_4091_b9cc_af4f28af2199">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_8f52dfef_b6bc_4a1b_965d_45facbfa152d"/>
+        <rdfs:label xml:lang="zh">C_Winery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_828d32b5_e67e_4b0b_b4b9_b4f4367bad50 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_828d32b5_e67e_4b0b_b4b9_b4f4367bad50">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d5bc8f00_e487_45ee_b624_39a3a96a4d11"/>
+        <rdfs:label xml:lang="zh">Wine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_8f52dfef_b6bc_4a1b_965d_45facbfa152d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_8f52dfef_b6bc_4a1b_965d_45facbfa152d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d5bc8f00_e487_45ee_b624_39a3a96a4d11"/>
+        <rdfs:label xml:lang="zh">Winery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_a8278ee0_e4d1_45d8_9c65_e9674935d07c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_a8278ee0_e4d1_45d8_9c65_e9674935d07c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d091e06b_de89_4bf5_91bd_1a498053c3a8"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d5bc8f00_e487_45ee_b624_39a3a96a4d11"/>
+        <rdfs:label xml:lang="zh">Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_ccf2b502_26ed_44c3_a15f_c6a645a5cf0b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_ccf2b502_26ed_44c3_a15f_c6a645a5cf0b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_e389b8f6_62f8_4ae4_a373_678250b4d147"/>
+        <rdfs:label xml:lang="zh">Low_degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d091e06b_de89_4bf5_91bd_1a498053c3a8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d091e06b_de89_4bf5_91bd_1a498053c3a8">
+        <rdfs:label xml:lang="zh">Domain_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d5bc8f00_e487_45ee_b624_39a3a96a4d11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d5bc8f00_e487_45ee_b624_39a3a96a4d11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_d091e06b_de89_4bf5_91bd_1a498053c3a8"/>
+        <rdfs:label xml:lang="zh">Independent_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_e389b8f6_62f8_4ae4_a373_678250b4d147 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_e389b8f6_62f8_4ae4_a373_678250b4d147">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_a8278ee0_e4d1_45d8_9c65_e9674935d07c"/>
+        <rdfs:label xml:lang="zh">Degree</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_10618d78_aec0_464a_88cb_7294a0dc352f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1a889613_ecf4_4dc5_8ccd_de87ec87a8ad"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_263aa50b_8623_439d_8086_2f401ebe7252"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_7e5a2e8c_076a_4091_b9cc_af4f28af2199"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_1d21e61e_82c7_42f2_abdf_20695cc4e804"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_78ed8280_e250_45eb_9f82_76b036b97be0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/untitled-ontology-11#OWLClass_ccf2b502_26ed_44c3_a15f_c6a645a5cf0b"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#"
+     xml:base="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_70996306_39d5_4d7e_beaa_c71a92b8d058 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_70996306_39d5_4d7e_beaa_c71a92b8d058">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="zh">relational_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_9dd1179d_cc88_4b9f_b722_0dafbb74261c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_9dd1179d_cc88_4b9f_b722_0dafbb74261c">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="zh">modifier_property</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_d6760fbc_d375_4187_8c8f_95c4b6ed298e -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_d6760fbc_d375_4187_8c8f_95c4b6ed298e">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_70996306_39d5_4d7e_beaa_c71a92b8d058"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="zh">has_base</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_dbf61102_db78_437f_868f_32b2b2ea1b84 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_dbf61102_db78_437f_868f_32b2b2ea1b84">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_70996306_39d5_4d7e_beaa_c71a92b8d058"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="zh">has_topping</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_de2e51c5_2100_44f7_b88a_8a4241eaa732 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_de2e51c5_2100_44f7_b88a_8a4241eaa732">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_9dd1179d_cc88_4b9f_b722_0dafbb74261c"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label xml:lang="zh">has_spiciness</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_0ec7feb6_9ff7_420d_8579_2613efdf1d9c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_0ec7feb6_9ff7_420d_8579_2613efdf1d9c">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_dbf61102_db78_437f_868f_32b2b2ea1b84"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_c2b693f9_4795_45e9_83c0_424b06dc7075"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">Meaty_Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_0ecf7659_6394_40c1_9569_6b00281f1b8b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_0ecf7659_6394_40c1_9569_6b00281f1b8b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:label xml:lang="zh">Vegetable_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_12f8e6f8_51d8_4deb_9d45_405b5dde6286 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_12f8e6f8_51d8_4deb_9d45_405b5dde6286">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_8b7be221_80a0_4b41_8ade_7f19c2617f37"/>
+        <rdfs:label xml:lang="zh">Mild_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_154e1f93_866a_406e_8258_2198ec02edd3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_154e1f93_866a_406e_8258_2198ec02edd3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_de2e51c5_2100_44f7_b88a_8a4241eaa732"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d903ea7f_83f2_46b7_8f72_02febcdcd027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="zh">HerbSpice_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2422fca1_3978_4b54_b924_c86884f01288 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2422fca1_3978_4b54_b924_c86884f01288">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_de2e51c5_2100_44f7_b88a_8a4241eaa732"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_12f8e6f8_51d8_4deb_9d45_405b5dde6286"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="zh">Cheese_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_abd524e9_f26a_4b76_939f_843bc4b03dec"/>
+        <rdfs:label xml:lang="zh">Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_3c860f9d_0cae_457a_8770_d2ec82f9c7a7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_3c860f9d_0cae_457a_8770_d2ec82f9c7a7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_8b7be221_80a0_4b41_8ade_7f19c2617f37"/>
+        <rdfs:label xml:lang="zh">Medium_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_46acd1ae_ba14_41df_987a_b04239e1e3ed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_46acd1ae_ba14_41df_987a_b04239e1e3ed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_abd524e9_f26a_4b76_939f_843bc4b03dec"/>
+        <rdfs:label xml:lang="zh">Pizza_base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_48d57b33_b639_4ce4_a500_82ed6da8fc40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_48d57b33_b639_4ce4_a500_82ed6da8fc40">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:label xml:lang="zh">Vegetarian_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_5777b495_afdc_4370_ba78_9e910c08bcc7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_5777b495_afdc_4370_ba78_9e910c08bcc7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_46acd1ae_ba14_41df_987a_b04239e1e3ed"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_ae372552_c6f6_47f2_b6ff_7bdb5807f994"/>
+        <rdfs:label xml:lang="zh">ThinAndCrispy_Base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_5a679643_f392_447f_aa1c_94f6769265c0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_5a679643_f392_447f_aa1c_94f6769265c0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:label xml:lang="zh">Sauce_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_5be6efea_07c2_4d30_b9d9_b0622c8e19ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_5be6efea_07c2_4d30_b9d9_b0622c8e19ae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_de2e51c5_2100_44f7_b88a_8a4241eaa732"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_3c860f9d_0cae_457a_8770_d2ec82f9c7a7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="zh">Seafood_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_618bded5_fb43_4deb_8e8d_39dc67fd0680 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_618bded5_fb43_4deb_8e8d_39dc67fd0680">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_6de9f978_4b80_430f_8af7_cb76169a0277"/>
+        <rdfs:label xml:lang="zh">Value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_6de9f978_4b80_430f_8af7_cb76169a0277 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_6de9f978_4b80_430f_8af7_cb76169a0277">
+        <rdfs:label xml:lang="zh">Domain_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_7965c859_dbe6_4f09_9118_d38e5e55f258 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_7965c859_dbe6_4f09_9118_d38e5e55f258">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_dbf61102_db78_437f_868f_32b2b2ea1b84"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_48d57b33_b639_4ce4_a500_82ed6da8fc40"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">Vegetrarian_Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_7da83332_dd41_482d_b3a9_ee7b8e1a6ef4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_7da83332_dd41_482d_b3a9_ee7b8e1a6ef4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+        <rdfs:label xml:lang="zh">Interesting_Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_8b7be221_80a0_4b41_8ade_7f19c2617f37 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_8b7be221_80a0_4b41_8ade_7f19c2617f37">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_618bded5_fb43_4deb_8e8d_39dc67fd0680"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_12f8e6f8_51d8_4deb_9d45_405b5dde6286"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_3c860f9d_0cae_457a_8770_d2ec82f9c7a7"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d903ea7f_83f2_46b7_8f72_02febcdcd027"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="zh">Spiciness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_a627571d_9505_47e1_923d_bc285f9aa7ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_a627571d_9505_47e1_923d_bc285f9aa7ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:label xml:lang="zh">Fruit_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_abd524e9_f26a_4b76_939f_843bc4b03dec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_abd524e9_f26a_4b76_939f_843bc4b03dec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_6de9f978_4b80_430f_8af7_cb76169a0277"/>
+        <rdfs:label xml:lang="zh">Independent_entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_ae372552_c6f6_47f2_b6ff_7bdb5807f994 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_ae372552_c6f6_47f2_b6ff_7bdb5807f994">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_46acd1ae_ba14_41df_987a_b04239e1e3ed"/>
+        <rdfs:label xml:lang="zh">DeepPan_Base</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_b65aae9a_17a3_4d40_b218_47eb2af3c728 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_b65aae9a_17a3_4d40_b218_47eb2af3c728">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+        <rdfs:label xml:lang="zh">Nonvegetarian_Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_b86bb25d_96a9_4d7a_9e43_269e2dc8cbb4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_b86bb25d_96a9_4d7a_9e43_269e2dc8cbb4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+        <rdfs:label xml:lang="zh">Reallitalian_Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_bedd0667_4f60_4b35_bba8_5cda8c7da41c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_bedd0667_4f60_4b35_bba8_5cda8c7da41c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_de2e51c5_2100_44f7_b88a_8a4241eaa732"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_12f8e6f8_51d8_4deb_9d45_405b5dde6286"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="zh">Nut_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_c2b693f9_4795_45e9_83c0_424b06dc7075 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_c2b693f9_4795_45e9_83c0_424b06dc7075">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_de2e51c5_2100_44f7_b88a_8a4241eaa732"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_3c860f9d_0cae_457a_8770_d2ec82f9c7a7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="zh">Meat_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d89b002a_6ecf_4205_82bb_398ef95f9fcb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d89b002a_6ecf_4205_82bb_398ef95f9fcb">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_dbf61102_db78_437f_868f_32b2b2ea1b84"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2422fca1_3978_4b54_b924_c86884f01288"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">Cheesy_Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d903ea7f_83f2_46b7_8f72_02febcdcd027 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d903ea7f_83f2_46b7_8f72_02febcdcd027">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_8b7be221_80a0_4b41_8ade_7f19c2617f37"/>
+        <rdfs:label xml:lang="zh">Hot_value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d9681b62_b311_4a30_b575_89e18dbfee57 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d9681b62_b311_4a30_b575_89e18dbfee57">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_dbf61102_db78_437f_868f_32b2b2ea1b84"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_fd03d36e_df4c_4b95_93f6_9eeadd87cadc"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">Spicy_Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_abd524e9_f26a_4b76_939f_843bc4b03dec"/>
+        <rdfs:label xml:lang="zh">Pizza_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_f1987bcb_6e50_448b_82d7_23e3bbac3ea6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_f1987bcb_6e50_448b_82d7_23e3bbac3ea6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+        <rdfs:label xml:lang="zh">ThinAndCrispy_Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_fd03d36e_df4c_4b95_93f6_9eeadd87cadc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_fd03d36e_df4c_4b95_93f6_9eeadd87cadc">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLObjectProperty_de2e51c5_2100_44f7_b88a_8a4241eaa732"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d903ea7f_83f2_46b7_8f72_02febcdcd027"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="zh">Spicy_topping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_0ecf7659_6394_40c1_9569_6b00281f1b8b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_154e1f93_866a_406e_8258_2198ec02edd3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2422fca1_3978_4b54_b924_c86884f01288"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_48d57b33_b639_4ce4_a500_82ed6da8fc40"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_5a679643_f392_447f_aa1c_94f6769265c0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_5be6efea_07c2_4d30_b9d9_b0622c8e19ae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_a627571d_9505_47e1_923d_bc285f9aa7ff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_bedd0667_4f60_4b35_bba8_5cda8c7da41c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_c2b693f9_4795_45e9_83c0_424b06dc7075"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_fd03d36e_df4c_4b95_93f6_9eeadd87cadc"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_12f8e6f8_51d8_4deb_9d45_405b5dde6286"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_3c860f9d_0cae_457a_8770_d2ec82f9c7a7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_d903ea7f_83f2_46b7_8f72_02febcdcd027"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_2d48feab_b745_453c_ab39_85216bc9a5ac"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_46acd1ae_ba14_41df_987a_b04239e1e3ed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_e31aabac_8082_4e33_9110_82c655b60206"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_618bded5_fb43_4deb_8e8d_39dc67fd0680"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_6de9f978_4b80_430f_8af7_cb76169a0277"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/liuji/ontologies/2020/9/pizza#OWLClass_abd524e9_f26a_4b76_939f_843bc4b03dec"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
